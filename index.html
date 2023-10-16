@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const str = "Hello, World!";
+
+// Method 1: length
+document.write("1. Length: "+str.length +"<br>");
+
+// Method 2: charAt
+document.write("2. Char at index 4: " +str.charAt(4)+"<br>");
+
+// Method 3: substring
+document.write("3. Substring from index 7 to 12: "+str.substring(7, 12)+"<br>");
+
+// Method 4: indexOf
+document.write("4. Index of World :" +str.indexOf("World")+"<br>");
+
+// Method 5: replace
+document.write("5. Replace World with Universe :" +str.replace("World", "Universe")+"<br>");
+
+
+// Method 7: toLowerCase
+document.write("7. Lowercase:" +str.toLowerCase()+"<br>");
+
+// Method 8: toUpperCase
+document.write("8. Uppercase:" +str.toUpperCase()+"<br>");
+
+// Method 9: trim
+const trimmedStr = "   Hello, World!   ".trim();
+document.write("9. Trim: "+trimmedStr+"<br>");
+
+// Method 10: concat
+const str1 = "Hello, ";
+const str2 = "Universe!";
+document.write("10. Concatenation:" +str1.concat(str2)+"<br>");
+
+    </script>
+</body>
+</html>
